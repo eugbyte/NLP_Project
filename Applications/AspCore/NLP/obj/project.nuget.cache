@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nNN5pNBzoKctwMoVEHGnBj7l1Sz6pYBPCqCsczmTdzfAwkVNdGXCKrGG6zHOhmZj6ZoLx1VcEb4ojyNhchgMpw==",
+  "dgSpecHash": "9Ph9PZSl9bhoaLfXC+6gCoL28jFZ5pqtwiCkI457OtXZ4StOsu0kb/yD7t619891ZlHgTDv4oReBUakjlVeHPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eugen\\Codes\\NLP_Project\\NLP\\AspCore\\NLP\\NLP.csproj",
+  "projectFilePath": "C:\\Users\\eugen\\Codes\\NLP_Project\\Applications\\AspCore\\NLP\\NLP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eugen\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\eugen\\.nuget\\packages\\deepcloner\\0.10.2\\deepcloner.0.10.2.nupkg.sha512",

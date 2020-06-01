@@ -17,7 +17,7 @@ namespace NLP.HelperClasses
         public static void AddDbContextExtension(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<NlpDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("MSSQL")));
+                options.UseSqlServer(configuration.GetConnectionString("RDS")));
         }
 
         public static void AddTransientServicesExtension(this IServiceCollection services)

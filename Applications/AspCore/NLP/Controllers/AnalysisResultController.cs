@@ -31,6 +31,12 @@ namespace NLP.Controllers
             return Ok(webPages);
         }
 
+        [HttpGet("test")]
+        public ActionResult TestGet()
+        {
+            return Ok("Hello World");
+        }
+
         [HttpPost("saveResult")]
         public async Task<ActionResult> SaveResult(AnalysisResult webPage)
         {

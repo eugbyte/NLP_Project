@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eugen\\Codes\\NLP_Project\\NLP\\AspCore\\NLP\\NLP.csproj": {}
+    "C:\\Users\\eugen\\Codes\\NLP_Project\\Applications\\AspCore\\NLP\\NLP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eugen\\Codes\\NLP_Project\\NLP\\AspCore\\NLP\\NLP.csproj": {
+    "C:\\Users\\eugen\\Codes\\NLP_Project\\Applications\\AspCore\\NLP\\NLP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eugen\\Codes\\NLP_Project\\NLP\\AspCore\\NLP\\NLP.csproj",
+        "projectUniqueName": "C:\\Users\\eugen\\Codes\\NLP_Project\\Applications\\AspCore\\NLP\\NLP.csproj",
         "projectName": "NLP",
-        "projectPath": "C:\\Users\\eugen\\Codes\\NLP_Project\\NLP\\AspCore\\NLP\\NLP.csproj",
+        "projectPath": "C:\\Users\\eugen\\Codes\\NLP_Project\\Applications\\AspCore\\NLP\\NLP.csproj",
         "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eugen\\Codes\\NLP_Project\\NLP\\AspCore\\NLP\\obj\\",
+        "outputPath": "C:\\Users\\eugen\\Codes\\NLP_Project\\Applications\\AspCore\\NLP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",

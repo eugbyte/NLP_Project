@@ -9,6 +9,9 @@ from src.services.tfidf.tfidf_sentiment_analysis import tfidf_sentiment_analysis
 from src.services.vader.vader_sentiment_analysis import vader_sentiment_analysis
 from fastapi.encoders import jsonable_encoder
 
+from fastapi.middleware.wsgi import WSGIMiddleware
+from flask import Flask, escape, request
+
 app = FastAPI()
 
 
@@ -36,4 +39,5 @@ async def analyze_sentiment(document_query_view_model: DocumentSearchQueryViewMo
 async def root():
     return {"message": "Hello World"}
 
+# To run the application, key in the following in the terminal:
 # uvicorn main:app --reload
