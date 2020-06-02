@@ -5,7 +5,7 @@ import axios, { AxiosResponse } from 'axios';
 
 export function * deleteResultAsync(action: IAction) {
     const headers = { 'Content-Type': 'application/json' };
-    const deleteUrl = StringStorage.APIURL + "webPages/" + action.analysisResultId;
+    const deleteUrl = StringStorage.EB_APIURL + "webPages/" + action.analysisResultId;
 
     try {
         let response: AxiosResponse = yield axios.delete(deleteUrl, { headers: headers });

@@ -8,7 +8,7 @@ import { IAnalysisResult } from "../../models/AnalysisResult";
 export function * saveResultsAsync(action: IAction) {
     console.log("submitting results...", action.value);
     const headers = { 'Content-Type': 'application/json' };
-    const url = StringStorage.APIURL + "analysisResult/saveResult";
+    const url = StringStorage.EB_APIURL + "analysisResult/saveResult";
     let webPage: IAnalysisResult = action.value as IAnalysisResult;
     yield put({ type: ACTIONS.SAVE_RESULTS_ASYNC });
     try {

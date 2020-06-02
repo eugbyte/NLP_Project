@@ -4,6 +4,7 @@ using Force.DeepCloner;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using NLP.Exceptions;
+using NLP.HelperClasses;
 using NLP.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace NLP.Services
 {
     public class WebScrapService : IWebScrapService
     {
-        private readonly string baseAddress = "http://127.0.0.1:8000";
+        private readonly string BaseAddress = StringStorage.HerokuFastApiUrl;
 
         public async Task<string> AnalyzeWebPage(DocumentSearchQueryViewModel vm)
         {
@@ -24,7 +25,7 @@ namespace NLP.Services
 
             using (HttpClient client = new HttpClient())
             {
-                client.BaseAddress = new Uri(baseAddress);
+                client.BaseAddress = new Uri(BaseAddress);
 
                 HttpResponseMessage response = await client.PostAsJsonAsync<DocumentSearchQueryViewModel>("analyzeSentiment", vm);
                 HttpContent content = response.Content;
@@ -55,7 +56,7 @@ namespace NLP.Services
 
             using (HttpClient client = new HttpClient())
             {
-                client.BaseAddress = new Uri(baseAddress);
+                client.BaseAddress = new Uri(BaseAddress);
 
                 HttpResponseMessage response = await client.PostAsJsonAsync<List<DocumentViewModel>>("vader", documents);
 

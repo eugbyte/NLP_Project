@@ -9,9 +9,6 @@ from src.services.tfidf.tfidf_sentiment_analysis import tfidf_sentiment_analysis
 from src.services.vader.vader_sentiment_analysis import vader_sentiment_analysis
 from fastapi.encoders import jsonable_encoder
 
-from fastapi.middleware.wsgi import WSGIMiddleware
-from flask import Flask, escape, request
-
 app = FastAPI()
 
 

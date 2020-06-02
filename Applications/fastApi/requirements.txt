@@ -12,6 +12,7 @@ dnspython==1.16.0
 email-validator==1.1.1
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
 fastapi==0.55.1
+gunicorn==20.0.4
 graphene==2.1.8
 graphql-core==2.3.2
 graphql-relay==2.0.1
@@ -50,5 +51,5 @@ tqdm==4.46.0
 ujson==2.0.3
 urllib3==1.25.9
 uvicorn==0.11.5
-wasabi==0.6.0
+wasabi==0.6.0 
 websockets==8.1

@@ -9,7 +9,7 @@ export function * postDocumentsAsync(action: IAction) {
     console.log("in postDocumentAsync");
 
     const headers = { 'Content-Type': 'application/json' };
-    const url = StringStorage.APIURL + "webScrapping/analyzeSentiment";
+    const url = StringStorage.EB_APIURL + "webScrapping/analyzeSentiment";
     try {
         let documents: IDocument[] = action.value as IDocument[];   
         let documentSearchQueryVM = new DocumentSearchQueryViewModel();

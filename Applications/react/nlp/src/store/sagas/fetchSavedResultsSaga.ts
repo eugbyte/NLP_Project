@@ -8,7 +8,7 @@ import { AnalysisResult } from "../../models/AnalysisResult";
 export function * fetchSavedResultsAsync(action: IAction) {
     console.log("in fetchSavedResultsAsync");
     const headers = { 'Content-Type': 'application/json' };
-    const url: string = StringStorage.APIURL + "analysisResult";
+    const url: string = StringStorage.EB_APIURL + "analysisResult";
 
     try {
         let response: AxiosResponse<AnalysisResult[]> = yield axios.get(url, { headers: headers });

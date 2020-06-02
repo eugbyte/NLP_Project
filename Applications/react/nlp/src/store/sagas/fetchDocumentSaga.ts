@@ -5,7 +5,7 @@ import { IDocument } from '../../models/Document';
 import { StringStorage } from '../../services/StringStorage';
 
 function * fetchDocumentsAsnyc(action: IAction) {
-    const backendUrl: string = StringStorage.APIURL + "webScrapping";
+    const backendUrl: string = StringStorage.EB_APIURL + "webScrapping";
     const headers = { 'Content-Type': 'application/json' };
 
     try {
