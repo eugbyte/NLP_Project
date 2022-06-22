@@ -24,7 +24,7 @@ joblib==0.15.1
 MarkupSafe==1.1.1
 murmurhash==1.0.2
 nltk==3.5
-numpy==1.18.4
+numpy==1.22.0
 orjson==3.0.2
 pandas==1.0.4
 plac==1.1.3
